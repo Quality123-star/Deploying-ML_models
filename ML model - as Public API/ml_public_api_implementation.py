@@ -1,17 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 12 19:06:30 2022
-
-@author: siddhardhan
-"""
-
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Jun 12 12:16:26 2022
-
-@author: siddhardhan
-"""
-
 import json
 import requests
 
@@ -37,4 +23,5 @@ input_json = json.dumps(input_data_for_model)
 response = requests.post(url, data=input_json)
 
 print(response.text)
+
 
